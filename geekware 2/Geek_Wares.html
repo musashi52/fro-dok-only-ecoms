@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="GEEK WARES" content="width= device-width initial-scale=1.0">
+    <title> GEEK WARES online shopping  with log-in registration </title>
+    <link rel="stylesheet" href="css_geekwares.css">
+</head>
+
+<body >
+    <header>
+    
+        <h2 class="logo"> GEEK WARES
+        </h2>
+    
+
+        <nav class="navigation"> 
+            
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="form-box Login">
+            <h2>Login</h2>
+            <Form class="login_form" action="page3.html" method="post" name="form" onsubmit="return Svalidated()">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-unread"></ion-icon></span>
+                    <input class="input" type="email" id required>
+                    <!-- <div class="email_error">Please fill up your Email</div>-->.
+                    <label >Email</label>
+
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input class="input" type="password"id required>
+                   <!--  <div class="pass_error">Please fill up your Password</div>-->.
+                    <label >Password</label>
+
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#"> Forget Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <P>Don't Have an Account <a href="#"
+                    class="register-link">Register</a></P>
+                </div>
+            </Form>
+        </div>
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <Form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-circle"></ion-icon></ion-icon></span>
+                    <input type="text" required>
+                    <label >Username</label>
+
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-unread"></ion-icon></span>
+                    <input type="email" required>
+                    <label >Email</label>
+
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label >Password</label>
+
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Agree To The Terms & Conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <P>Already Have an Account <a href="#"
+                    class="login-link">Login</a></P>
+                </div>
+            </Form>
+        </div>
+    </div>
+
+
+
+    <script src="jav.js"></script>
+    <script src="account.js" charset="UTF-8"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

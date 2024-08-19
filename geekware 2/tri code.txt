@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="css_geekwares.css">
+    <title>GEEK WAre.ONline</title>
+</head>
+<body>
+    <header>
+    <h2 class="logo"> GEEK WARES
+    </h2>
+
+<nav class="navigation"> 
+        <a href="Geek_Wares.html">Logout</a>
+        <a href="Services.html">Services</a>
+        <a href="bpage.html">Build Your Own Dream</a>
+        
+    </nav>
+</header>
+    <div class="container">
+        <h1>Product List</h1>
+        <ul class="product-list">
+            
+            <li>
+                <img src="image/p1.jfif" alt="Product 1">
+                <h2>PC Set 1 </h2>
+                <p>memory: icore 4g/8g/16g/32g ddr4
+                    graphics GTX750ti
+                    1050tihard 
+                    disk: 120G/240G/480Gssd/500G/1TB</1050ti>
+                </p>
+                <span class="price">₱25,000-30,000</span>
+                <a href="page4.html">BUY</a>
+            </li>
+        
+        >
+            <li>
+                <img src="image/p2.jfif" alt="Product 2">
+                <h2>PC Set 2</h2>
+                <p>memory 8G ddr4 2400/2666mhzz
+                    graphics intel hd 530
+                    hard disk":480 ssd
+                    powersupply ATX-750W
+                </p>
+                <span class="price">₱35,000-40,000</span>
+                <a href="page4.html">BUY</a>
+            </li>
+            
+            <li>
+                <img src="image/p3.jfif" alt="Product 3">
+                <h2>PC Set 3</h2>
+                <p>memory 8G ddr4 2400/2666mhzz
+                    graphics intel hd 530
+                    hard disk":480 ssd
+                    powersupply ATX-750W</p>
+                <span class="price">₱35,000-40,000</span>
+                <a href="page4.html">BUY</a>
+            </li>
+        
+            <li>
+                
+                <img src="image/p4.jfif" alt="Product 4">
+                <h2>PC Set 4</h2>
+                <p>AMD Ryzen 3 3200G or Intel Core i3-10100
+                    1050 or AMD Radeon RX 560
+                    8GB DDR4 RAM (Upgradable to 16GB)
+                    240GB SSD for the operating system and applications
+                    1TB HDD for additional storage
+                    450W to 500W power supply from a reputable brand</p>
+                <span class="price">₱25,000-30,000</span>
+                <a href="page4.html">BUY</a>
+            </li>
+        
+            <li>
+                <img src="image/p5.webp" alt="Product 5">
+                <h2>PC Set 5</h2>
+                <p>AMD Ryzen 3 3200G (Integrated Radeon Vega 8 Graphics)
+                    Ryzen 3 3200G (e.g., B450 chipset)
+                    8GB (2x4GB) DDR4 RAM
+                    240GB SSD for the operating system and essential applications
+                    8 Graphics (comes with Ryzen 3 3200G)
+                    450W power supply from a reputable brand/p>
+                <span class="price">₱35,000-40,000</span>
+                <a href="page4.html">BUY</a>
+            </li>
+        
+            
+            <li>
+                <img src="image/p6.jpg" alt="Product 6">
+                <h2>PC Set 6</h2>
+                <p>Intel Core i3-10100 (Comes with Integrated Intel UHD Graphics 630)
+                    Intel i3-10100 (e.g., H410 chipset)
+                   8GB (2x4GB) DDR4 RAM 
+                   240GB SSD
+                   AMD Radeon RX 560
+                    450W power supply 
+                   </p>
+                <span class="price">₱35,000-40,000</span>
+                <a href="page4.html">BUY</a>
+            </li>
+        
+           
+        </ul>
+    </div>
+</body>
+</html>

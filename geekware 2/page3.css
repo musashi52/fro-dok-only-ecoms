@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product-image {
+    top: 0;
+    left: 0;
+    padding: 20px -50px;
+    right: 200;
+    flex: 0 0 auto;
+    max-width: 100px; 
+    align-self: flex-start; 
+}
+
+
+
+.product-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.product-title {
+    top: 0;
+    padding: 20px -50px;
+    right: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #e44d26; /* Amazon's orange color */
+    margin-bottom: 10px;
+}
+
+.product-description {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    background-color: #f90; /* Amazon's yellow color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #d58031; /* Darker shade for hover effect */
+}
